@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.50);
+    font-weight: 700;
+    display: block;
+    user-select: none;
+}
+
+.card {
+    margin: 5% auto;
+    background-color: #302F35;
+    width: 340px;
+    height: 174px;
+    opacity: 0.9;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.50);
+    border-radius: 12px;
+    padding: 14px 13.6px;
+}
+
+.card-title {
+    font-size: 14px;
+    color: #FFFFFF;
+    user-select: none;
+    letter-spacing: 0;
+}
+
+.slider {
+    width: 252px;
+}
+
+
+.slider::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background-color: #007FFF;
+    border-radius: 50%;
+    height: 2px;
+    cursor: grab;
+    border-radius: 4.5px;
+    margin-top: -7px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -7px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 4px 0;
+    background: #6C6D73;
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    margin-top: -7px;
+    appearance: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 4px 0;
+    background: #6C6D73;
+    background-size: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider_number {
+    width: 50px;
+    padding: 0 0 0 8px;
+    background: #47484E;
+    border-radius: 6px;
+    border: none;
+    width: 49px;
+    height: 24px;
+    color: #FFFFFF;
+}
+
+.slider_number::-webkit-inner-spin-button {
+    opacity: 1;
+    height: 24px;
+    max-width: 5px !important;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.icon {
+    margin: 0px 5px;
+}
+
+.btn-up {
+    background-image: url('assets/btn-up.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 25px;
+
+}
+
+.normal {
+    background-image: url('assets/normal.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 25px;
+}
+
+.input_container {
+    display: flex;
+}
